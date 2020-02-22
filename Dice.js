@@ -21,9 +21,9 @@ function changePercentages(){
 }
 
 function roll(){
-    var roll1 = Math.floor(Math.random()*5)+1;
+    var roll1 = Math.floor(Math.random()*6)+1;
     console.log(roll1);
-    var roll2 = Math.floor(Math.random()*5)+1;
+    var roll2 = Math.floor(Math.random()*6)+1;
     console.log(roll2);
     var rollTotal = roll1 + roll2;
     rollHistory = rollHistory.concat(rollTotal.toString() + " ");
